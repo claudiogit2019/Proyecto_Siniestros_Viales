@@ -49,7 +49,7 @@ Se ejecuta comandos basicos para conocer el Dataset:
 
 para conocer mas en detalle el DataSet, por ser extenso en columnas se decide: 
 
-***# Vamos a dividir en primera instancia en tres dataframe***
+***#  A dividir en primera instancia en tres dataframe***
 
 ---
 
@@ -102,7 +102,7 @@ limpieza_data_victimas.duplicated().sum()
 
 ## > Empezamos el camino de Analizar las variables - Numericas de los DataSets
 ![parte delantera](var_numerica1.jpg)
- ## > Empezamos el camino de Analizar las variables - Categoricas de los DataSets  
+ ## > Ahora el camino es Analizar las variables - Categoricas de los DataSets  
 ![parte delantera](variable_categorica.jpg)                                                                                                             
 ## > Veamos la distribucion de los Homicidios en forma simultanea - Años/Meses/Semanas
 ![parte delantera](are_you_sure.jpg)
@@ -192,15 +192,34 @@ homicidios_por_mes_y_anio = homicidios_por_mes_y_anio.rename(columns={'Nro_victi
 **3.  **Este KPI se centrará en analizar la tasa de accidentes según el tipo de vehículo involucrado (por ejemplo, moto, auto, transporte público, camión, ciclista) en un período de tiempo específico. La idea es calcular la tasa de accidentes para cada tipo de vehículo y compararla con un período anterior para evaluar si ha habido mejoras en la seguridad vial.**.**
 
 ## Veamos los Graficos
+
 <p align="center">
   <img src="kpis2.webp" alt="Descripción de la imagen" height = 200>
 </p>
 
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFwfJL42DQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFwfJL42DQ&#x2F;view?utm_content=DAFwfJL42DQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Analisis variables categoricas!!!!</a> de antonio claudio Ortiz
+![parte delantera](kpis3.jpg)
+
+
+
+# > Armemos nuestro Storytelling
+<p align="center">
+  <img src="story2.jpg" alt="Descripción de la imagen" height = 300>
+</p>
+
+
+### Basicamente mi storytelling esta basada dentro del contexto de una empresa de Desarrollo Cloud Soft, donde al Ing. Ortiz se le encomendo el analiss de datos de siniestros viales de CABA - Arg. para ellos tiene objetivos a cumplir teniendo como parametros los KPIS(Indicador clave de rendimiento)
+
+
+<p align="center">
+  <img src="story3.jpeg" alt="Descripción de la imagen" height = 300>
+</p
+
+
+### 
+# Enlace al Jupyter del Trabajo Encomentado
+
+https://colab.research.google.com/drive/1eI-Yj2WvVoF_qn91Z8SNkmuzQH3fP58R?usp=sharing
+
+<p align="center">
+  <img src="gracias.jpg" alt="Descripción de la imagen" height = 300>
+</p
